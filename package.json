@@ -1,0 +1,46 @@
+{
+  "name": "ndl-search",
+  "description": "A node.js wrapper for National Diet Library's Search.",
+  "version": "0.0.1",
+  "author": "lidice",
+  "bugs": {
+    "url": "https://github.com/lidice/node-ndl-search/issues"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "install": "^0.2.3",
+    "npm": "^3.3.10",
+    "object-assign": "^4.0.1",
+    "query-string": "^3.0.0",
+    "request": "^2.65.0",
+    "xml2js": "^0.4.15"
+  },
+  "devDependencies": {
+    "fixpack": "^2.2.0",
+    "mocha": "^2.3.3"
+  },
+  "files": [
+    "README.md",
+    "package.json",
+    "lib",
+    "test"
+  ],
+  "homepage": "https://github.com/lidice/node-ndl-search#readme",
+  "keywords": [
+    "book",
+    "isbn",
+    "japanese",
+    "wrapper"
+  ],
+  "license": "MIT",
+  "main": "lib/ndl-search.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lidice/node-ndl-search.git"
+  },
+  "scripts": {
+    "clean": "fixpack",
+    "example": "(cd example && npm run example)",
+    "test": "mocha test/*js"
+  }
+}
